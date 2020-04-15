@@ -1,10 +1,20 @@
-body, ul, h1{
+body, ul, h1, h2, p{
     margin: 0;
     padding: 0;
+}
+body{
+    background: url(../img/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #6c6c6c;
+
 }
 .container{
     width: 1024px;
     margin: 0 auto;
+}
+header{
+    background: #fff;
 }
 .header_wrapper{
     display: flex;
@@ -34,9 +44,7 @@ nav a:hover{
     transition: all 0.5s ease;
 }
 .banner{
-    background: url(../img/banner_bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 1;
 }
 .mySlides{
     display: flex;
@@ -54,6 +62,7 @@ nav a:hover{
     font-size: 27px;
     line-height: 44px;
     width: 260px;
+    padding-bottom: 30px;
 }
 .mySlides a{
     padding: 10px;
@@ -116,4 +125,28 @@ nav a:hover{
 .slideLeft{
     padding-left: 63px;
     padding-top: 38px;
+}
+.items{
+    background: url(../img/items_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.items_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+.item{
+    width: 260px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 14px;
+}
+.item img{
+    padding-bottom: 25px;
+}
+.item h2{
+    padding-bottom: 10px;
+    color: #5094f2;
+    font-size: 20px;
 }
