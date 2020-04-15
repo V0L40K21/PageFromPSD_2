@@ -1,4 +1,4 @@
-body, ul, h1, h2, p{
+body, ul, h1, h2, p, h3{
     margin: 0;
     padding: 0;
 }
@@ -149,4 +149,23 @@ nav a:hover{
     padding-bottom: 10px;
     color: #5094f2;
     font-size: 20px;
+}
+.cart{
+    background: #fff;
+    padding: 0 54px;
+    font-size: 42px;
+    padding-bottom: 45px;
+}
+.cart_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.text p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.text h3{
+    font-size: 26px;
+    padding-bottom: 30px;
 }
