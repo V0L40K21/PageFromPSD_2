@@ -5,7 +5,7 @@ body, ul, h1, h2, p, h3{
 body{
     background: url(../img/banner_bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: #6c6c6c;
 
 }
@@ -151,7 +151,6 @@ nav a:hover{
     font-size: 20px;
 }
 .cart{
-    background: #fff;
     padding: 0 54px;
     font-size: 42px;
     padding-bottom: 45px;
@@ -168,4 +167,9 @@ nav a:hover{
 .text h3{
     font-size: 26px;
     padding-bottom: 30px;
+}
+footer{
+    border-top: 1px solid #6c6c6c;
+    text-align: center;
+    padding: 34px;
 }
