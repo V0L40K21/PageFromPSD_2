@@ -1,0 +1,33 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 24px 0 21px 27px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 38px;
+    padding-top: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #6c6c6c;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 22px;
+}
+nav a:hover{    
+    border-bottom: 3px solid #5094f2;
+    transition: all 0.5s ease;
+}
